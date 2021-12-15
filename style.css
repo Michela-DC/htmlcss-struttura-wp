@@ -7,7 +7,7 @@
 .container {
     max-width: 1175px;
     margin: 25px auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 header, .section_1{
@@ -55,5 +55,11 @@ header{
     width: calc(100% - 40% - 4%);
     margin-left: 2%;
     margin-right: 2%;
+}
+
+footer{
+    /* HEIGHT SARà DA TOGLIERE per adattare img*/
+    height: 61px;
+    background-color: #8801fe;
 }
 
