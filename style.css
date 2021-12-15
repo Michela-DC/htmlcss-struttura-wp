@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 80%;
+    margin: 25px auto;
+    border: 1px solid black;
+}
+
+header{
+    background-color: #e579e6;
+    /* HEIGHT SARà DA TOGLIERE */
+    height: 143px;
+}
+
+
