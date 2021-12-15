@@ -5,12 +5,12 @@
 }
 
 .container {
-    width: 70%;
+    max-width: 1175px;
     margin: 25px auto;
     border: 1px solid black;
 }
 
-header, .section_1, .section_2{
+header, .section_1{
     margin-bottom: 30px;
 }
 
@@ -29,6 +29,31 @@ header{
 .section_2{
     /* HEIGHT SARà DA TOGLIERE per adattare img*/
     height: 668px;
+    background-color: #0086fa;
+    margin-bottom: 20px;
+}
+
+.section2_header{
+    /* HEIGHT SARà DA TOGLIERE per adattare img*/
+    height: 85px;
     background-color: #abcfe7;
+}
+
+.column_1, .column_2, .column_3{
+    float: left;
+    margin-top: 27px;
+    background-color: #abcfe7;
+    /* HEIGHT SARà DA TOGLIERE per adattare img*/
+    height: 536px;
+}
+
+.column_1, .column_3{ 
+    width: 20%;
+}
+
+.column_2{
+    width: calc(100% - 40% - 4%);
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
