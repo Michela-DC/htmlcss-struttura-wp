@@ -5,15 +5,30 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 25px auto;
     border: 1px solid black;
 }
 
-header{
-    background-color: #e579e6;
-    /* HEIGHT SARà DA TOGLIERE */
-    height: 143px;
+header, .section_1, .section_2{
+    margin-bottom: 30px;
 }
 
+header{
+    /* HEIGHT SARà DA TOGLIERE per adattare img*/
+    height: 143px;
+    background-color: #e579e6;
+}
+
+.section_1{
+    /* HEIGHT SARà DA TOGLIERE per adattare img*/
+    height: 501px;
+    background-color: #e1d77a;
+}
+
+.section_2{
+    /* HEIGHT SARà DA TOGLIERE per adattare img*/
+    height: 668px;
+    background-color: #abcfe7;
+}
 
